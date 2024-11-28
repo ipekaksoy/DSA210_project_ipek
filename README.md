@@ -29,6 +29,16 @@ All these data is collected from several cycles in order to be sure about the co
  3.
  
 ## Limitations and Future Work
-**Limitations:
+**Limitations: 
+    * Data depends only on an individual, which might inaccuraties and bias.
+    * Because it only depends on an individual it might not be generalized to other people.
+    * Menstrual cycle is affected by various environmental effects which cannot be determined, known (lack of knowladge about external factor).
+
+** Future Plans:
+   * Expanding datasets with the others from other users in the app.
+   * Analyze and focus on external factors more such as the diet and sleeping schedule.
+   * Incorporate a machine learning system to predict the possible symptoms severity based on the history of previous cycles.
+   * Creating a system which consist of more additinal variables for individuals like hormone levels and sleep quality.
+    
 
   
