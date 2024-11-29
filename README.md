@@ -1,8 +1,11 @@
 # DSA210_project_ipek
 
-## Motivation of the Project 
+## Motivation/Idea of the Project 
 
 In women's life, hysical, mental, and cognitive symptoms of menstrual cycle, significantlly affects various aspects. By studying these aspects, this project aims to increase awareness about these changes and provide important insights about women that can improve their physical and mental well-being.
+
+The main idea is to how menstrual cycle's different phases affecting on women's pyhsical, mental and cognitive health. Categorazing and studying these synptoms, project aims to find correlation between specific synptoms and a specific part of a menstural cycle.
+
 
 ## Data Source of This Data
 
@@ -14,27 +17,39 @@ Data for this project is extracted from a menstural cycle tracker app. App provi
 
 All these data is collected from several cycles in order to be sure about the consistency and reliability of these symptoms.
 
-## Data Analysis:Techniques used, diﬀerent stages of the analysis
+These data is extracted from a period tracker app in JSON format. Example data:
 
+ {
+      "date": "2024-11-02",
+      "cycleDay": 2,
+      "isPeriod": true,
+      "flowLevel": "moderate",
+      "symptoms": [
+        "mild cramps",
+        "headache
+        ]
+    },
+    {
+      "date": "2024-11-15",
+      "cycleDay": 15,
+      "isPeriod": false,
+      "flowLevel": "none",
+      "symptoms": [
+        "ovulation pain",
+        "bloating"
+      ]
+    }
 
-
-
-
-## What I Learned about Myself In This Project?
-
- 1.Specific alterations that have noticable impacts:
-   *Physical sympthoms especially body cramps are much more intense during the menstural phase.
-   * Mental sympthoms such as stres, anger and sadness peaked in lutheal phase wiht the cognitive affects such as being unable to concentrate and confussion in menstrual cycle.
- 2. Life sytle such as sleeping schedule, hydration and stress affected certain symptoms.
  
  
 ## Limitations and Future Work
 **Limitations**: 
+
     * Data depends only on an individual, which might inaccuraties and bias.
     * Because it only depends on an individual it might not be generalized to other people.
     * Menstrual cycle is affected by various environmental effects which cannot be determined, known (lack of knowladge about external factor).
 
-**Future Plans **:
+**Future Plans**:
 
    * Expanding datasets with the others from other users in the app.
    * Analyze and focus on external factors more such as the diet and sleeping schedule.
