@@ -45,18 +45,18 @@ These data is extracted from a period tracker app in JSON format. Example data:
  
  
 ## Limitations and Future Work of this Project
-**Limitations**: 
 
-    * Data depends only on an individual, which might inaccuraties and bias.
-    * Because it only depends on an individual it might not be generalized to other people.
-    * Menstrual cycle is affected by various environmental effects which cannot be determined, which causes lack of knowladge about external factor.
+### Limitations
+* Data depends only on an individual, which might lead to inaccuracies and bias.
+* Because it only depends on an individual, it might not be generalized to other people.
+* Menstrual cycle is affected by various environmental effects which cannot be determined (lack of knowledge about external factors).
 
-**Future Plans**:
+### Future Plans
+* Expanding datasets with contributions from other users in the app.
+* Analyze and focus on external factors more, such as diet and sleeping schedule.
+* Incorporate a machine learning system to predict the possible symptoms' severity based on the history of previous cycles.
+* Create a system that includes additional variables for individuals, like hormone levels and sleep quality.
 
-   * Expanding datasets with the others from other users in the app.
-   * Analyze and focus on external factors more such as the diet and sleeping schedule.
-   * Incorporate a machine learning system to predict the possible symptoms severity based on the history of previous cycles.
-   * Creating a system which consist of more additinal variables for individuals like hormone levels and sleep quality.
     
 
   
