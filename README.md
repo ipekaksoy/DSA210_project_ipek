@@ -28,7 +28,7 @@ These data is extracted from a period tracker app in JSON format. Example data:
       "flowLevel": "moderate",
       "symptoms": [
         "mild cramps",
-        "headache
+        "headache"
         ]
     },
     {
