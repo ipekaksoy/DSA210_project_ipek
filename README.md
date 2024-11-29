@@ -42,7 +42,7 @@ These data is extracted from a period tracker app in JSON format. Example data:
       ]
     }
 ]
- 
+ ```
  
 ## Limitations and Future Work of this Project
 
