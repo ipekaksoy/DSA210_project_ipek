@@ -17,7 +17,7 @@ Data for this project is extracted from a menstural cycle tracker app. App provi
 
 All these data is collected from several cycles in order to be sure about the consistency and reliability of these symptoms.
 
-These data is extracted from a period tracker app in JSON format. Example data:
+These data is extracted from a period tracker app in a txt file and stored in JSON format. Example data:
 
 ```json
 [
@@ -25,7 +25,6 @@ These data is extracted from a period tracker app in JSON format. Example data:
       "date": "2024-10-02",
       "cycleDay": 2,
       "isPeriod": true,
-      "flowLevel": "moderate",
       "symptoms": [
         "mild cramps",
         "headache"
@@ -35,7 +34,6 @@ These data is extracted from a period tracker app in JSON format. Example data:
       "date": "2024-10-15",
       "cycleDay": 15,
       "isPeriod": false,
-      "flowLevel": "none",
       "symptoms": [
         "ovulation pain",
         "bloating"
