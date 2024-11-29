@@ -17,28 +17,16 @@ Data for this project is extracted from a menstural cycle tracker app. App provi
 
 All these data is collected from several cycles in order to be sure about the consistency and reliability of these symptoms.
 
-These data is extracted from a period tracker app in a txt file and stored in JSON format. Example data:
+These data is extracted from the menstural tracker of Apple Health. Example data:
 
-```json
+```xml
 [
- {
-      "date": "2024-10-02",
-      "cycleDay": 2,
-      "isPeriod": true,
-      "symptoms": [
-        "mild cramps",
-        "headache"
-        ]
-    },
-    {
-      "date": "2024-10-15",
-      "cycleDay": 15,
-      "isPeriod": false,
-      "symptoms": [
-        "ovulation pain",
-        "bloating"
-      ]
-    }
+
+ <Record type="HKCategoryTypeIdentifierAcne" sourceName="Health" sourceVersion="17.6.1" creationDate="2024-10-2 17:07:42 +0300" startDate="2024-10-2 12:00:00 +0300" endDate="2024-10-2  12:00:00 +0300" value="HKCategoryValueSeverityUnspecified">
+  <MetadataEntry key="HKWasUserEntered" value="1"/>
+ </Record>
+ <Record type="HKCategoryTypeIdentifierAppetiteChanges" sourceName="Health" sourceVersion="17.6.1" creationDate="2024-10-2 17:07:42 +0300" startDate="2024-10-2 12:00:00 +0300" endDate="2024-10-2 12:00:00 +0300" value="HKCategoryValueAppetiteChangesUnspecified">
+  <MetadataEntry key="HKWasUserEntered" value="1"/>
 ]
  ```
 
