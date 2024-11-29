@@ -20,6 +20,7 @@ All these data is collected from several cycles in order to be sure about the co
 These data is extracted from a period tracker app in JSON format. Example data:
 
 ```json
+[
  {
       "date": "2024-10-02",
       "cycleDay": 2,
@@ -40,7 +41,7 @@ These data is extracted from a period tracker app in JSON format. Example data:
         "bloating"
       ]
     }
-
+]
  
  
 ## Limitations and Future Work of this Project
