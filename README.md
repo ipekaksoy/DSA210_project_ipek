@@ -20,7 +20,7 @@ All these data is collected from several cycles in order to be sure about the co
 These data is extracted from a period tracker app in JSON format. Example data:
 
  {
-      "date": "2024-11-02",
+      "date": "2024-10-02",
       "cycleDay": 2,
       "isPeriod": true,
       "flowLevel": "moderate",
@@ -30,7 +30,7 @@ These data is extracted from a period tracker app in JSON format. Example data:
         ]
     },
     {
-      "date": "2024-11-15",
+      "date": "2024-10-15",
       "cycleDay": 15,
       "isPeriod": false,
       "flowLevel": "none",
@@ -47,7 +47,7 @@ These data is extracted from a period tracker app in JSON format. Example data:
 
     * Data depends only on an individual, which might inaccuraties and bias.
     * Because it only depends on an individual it might not be generalized to other people.
-    * Menstrual cycle is affected by various environmental effects which cannot be determined, known (lack of knowladge about external factor).
+    * Menstrual cycle is affected by various environmental effects which cannot be determined, which causes lack of knowladge about external factor.
 
 **Future Plans**:
 
