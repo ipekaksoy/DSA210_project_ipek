@@ -2,9 +2,9 @@
 
 ## Motivation/Idea of the Project 
 
-In women's life, hysical, mental, and cognitive symptoms of menstrual cycle, significantlly affects various aspects. By studying these aspects, this project aims to increase awareness about these changes and provide important insights about women that can improve their physical and mental well-being. Thus, I and other womens will be able to plan and shape their lives accordingly, as they will know on which days their symptoms appear.
+In women's life, physical, mental, and cognitive symptoms of menstrual cycle, significantlly affects various aspects. By studying these aspects, this project aims to increase awareness about these changes and provide important insights about women that can improve their physical and mental well-being. Thus, I and other womens will be able to plan and shape their lives accordingly, as they will know on which days their symptoms appear.
 
-The main idea is to how menstrual cycle's different phases affecting on women's pyhsical, mental and cognitive health. Categorazing and studying these synptoms, project aims to find correlation between specific synptoms and a specific part of a menstural cycle.
+The main idea is to how menstrual cycle's different phases affecting on women's pyhsical, mental and cognitive health. Categorazing and studying these symptoms, project aims to find correlation between specific symptoms and a specific part of a menstural cycle.
 
 
 ## Data Source of This Data
@@ -17,7 +17,7 @@ Data for this project is extracted from a menstural cycle tracker app. App provi
 
 All these data is collected from several cycles in order to be sure about the consistency and reliability of these symptoms.
 
-These data is extracted from the menstural tracker of Apple Health which I use in this project to store the dates and the synptoms. As it is provided in the app, i export all of the datas in the app with XML and i clean the irrelevant data which is not about the menstural cycle on this app.
+These data is extracted from the menstural tracker of Apple Health which I use in this project to store the dates and the symptoms. As it is provided in the app, i export all of the datas in the app with XML and i clean the irrelevant data which is not about the menstural cycle on this app.
 Example data:
 
 ```xml
@@ -29,7 +29,15 @@ Example data:
   <MetadataEntry key="HKWasUserEntered" value="1"/>
 ]
  ```
-In this example data it shows that on the day of October 2nd, acnes started to appear and there is an appetite change due to the menstural cycle as synptoms.
+In this example data it shows that on the day of October 2nd, acnes started to appear and there is an appetite change due to the menstural cycle as symptoms.
+
+### Current Progress in the Project:
+
+ * Data Extraction: Continuing to extract data from the menstural cycle tracker in XML format.
+ * Data Cleaning: Irrelevant data unrelated to the menstural cycle has been removed.
+ * Premlimary Analysis: Initial patterns of symptoms related to specific cycle days has been identified .
+
+
 
  
 ## Possible Limitations and Future Work of this Project
