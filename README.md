@@ -31,7 +31,7 @@ Example data:
  ```
 In this example data it shows that on the day of October 2nd, acnes started to appear and there is an appetite change due to the menstural cycle as symptoms.
 
-Also, daily mood is stored in the app called Daylio with five different level of mood whichcategorizes moods into five levels: 'rad,' 'good,' 'meh,' 'bad,' and 'awful.'.This data which exported in the CSV format, provides an opportunity to explore whether specific stages of the menstrual cycle correlate with a mood drop or boost.By examining potential links between mood fluctuations and hormonal changes, this analysis could offer insights into how physiological factors influence emotional well-being. 
+Also, daily mood is stored in the app called Daylio with five different level of mood whichcategorizes moods into five levels: 'rad,' 'good,' 'meh,' 'bad,' and 'awful'.This data which exported in the CSV format, provides an opportunity to explore whether specific stages of the menstrual cycle correlate with a mood drop or boost.By examining potential links between mood fluctuations and hormonal changes, this analysis could offer insights into how physiological factors influence emotional well-being. 
 
 Moreover, I recorded my body temperature for several cycles so as to analyze whether specific stages in menstural cycle have a positive correlation with variations in body temperature. This investigation amins to uncover potential patterns linked to hormonal fluctuations during the menstrual cycle.  Moreover, combining mood data with body temperature trends could reveal deeper patterns and relationships. 
 
