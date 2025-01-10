@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSA210 Project</title>
     <style>
+        /* General Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #fdfdfd;
             color: #333;
+            scroll-behavior: smooth; /* Enables smooth scrolling */
         }
 
         .navbar {
@@ -40,7 +42,7 @@
             color: #0077cc;
             font-size: 16px;
             font-weight: bold;
-            transition: color 0.3s ease;
+            transition: color 0.3s ease; /* Hover transition */
         }
 
         .navbar a:hover {
@@ -52,6 +54,13 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            transition: opacity 0.5s ease, transform 0.5s ease; /* Page transitions */
+            opacity: 1;
+        }
+
+        .hidden {
+            opacity: 0;
+            transform: translateY(20px);
         }
 
         .container img {
@@ -91,18 +100,18 @@
 
     <div class="main-container">
         <!-- Images for the website -->
-        <div class="container"><img id="1" src="imageforwebsite/1.jpg" alt="Introduction"></div>
-        <div class="container"><img id="2" src="imageforwebsite/2.jpg" alt="Temperature"></div>
+        <div class="container" id="1"><img src="imageforwebsite/1.jpg" alt="Introduction"></div>
+        <div class="container" id="2"><img src="imageforwebsite/2.jpg" alt="Temperature"></div>
         <div class="container"><img src="imageforwebsite/3.jpg" alt="Page 3"></div>
         <div class="container"><img src="imageforwebsite/4.jpg" alt="Page 4"></div>
         <div class="container"><img src="imageforwebsite/5.jpg" alt="Page 5"></div>
         <div class="container"><img src="imageforwebsite/6.jpg" alt="Page 6"></div>
         <div class="container"><img src="imageforwebsite/7.jpg" alt="Page 7"></div>
-        <div class="container"><img id="8" src="imageforwebsite/8.jpg" alt="Mood"></div>
+        <div class="container" id="8"><img src="imageforwebsite/8.jpg" alt="Mood"></div>
         <div class="container"><img src="imageforwebsite/9.jpg" alt="Page 9"></div>
         <div class="container"><img src="imageforwebsite/10.jpg" alt="Page 10"></div>
         <div class="container"><img src="imageforwebsite/11.jpg" alt="Page 11"></div>
-        <div class="container"><img id="12" src="imageforwebsite/12.jpg" alt="Symptoms"></div>
+        <div class="container" id="12"><img src="imageforwebsite/12.jpg" alt="Symptoms"></div>
         <div class="container"><img src="imageforwebsite/13.jpg" alt="Page 13"></div>
         <div class="container"><img src="imageforwebsite/14.jpg" alt="Page 14"></div>
         <div class="container"><img src="imageforwebsite/15.jpg" alt="Page 15"></div>
@@ -113,5 +122,26 @@
     <footer class="foot">
         <a href="https://github.com/ipekaksoy">GitHub</a>
     </footer>
+
+    <script>
+        // JavaScript for Adding Transitions
+        const containers = document.querySelectorAll('.container');
+
+        // Apply transition effect when scrolling into view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('hidden');
+                } else {
+                    entry.target.classList.add('hidden');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        containers.forEach(container => {
+            container.classList.add('hidden'); // Start with the hidden class
+            observer.observe(container);
+        });
+    </script>
 </body>
 </html>
