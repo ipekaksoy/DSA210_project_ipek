@@ -1,5 +1,9 @@
 # DSA210_project_ipek
 
+## Website of the Project for Findings:
+
+Link: https://ipekaksoy.github.io/DSA210_project_ipek/
+
 ## Motivation/Idea of the Project 
 
 In women's life, physical, mental, and cognitive symptoms of menstrual cycle, significantlly affects various aspects. By studying these aspects, this project aims to increase awareness about these changes and provide important insights about women that can improve their physical and mental well-being. Thus, I and other womens will be able to plan and shape their lives accordingly, as they will know on which days their symptoms appear.
@@ -35,12 +39,29 @@ Also, daily mood is stored in the app called Daylio with five different level of
 
 Moreover, I recorded my body temperature for several cycles so as to analyze whether specific stages in menstural cycle have a positive correlation with variations in body temperature. This investigation amins to uncover potential patterns linked to hormonal fluctuations during the menstrual cycle.  Moreover, combining mood data with body temperature trends could reveal deeper patterns and relationships. 
 
-### Current Progress in the Project:
 
- * Data Extraction: Continuing to extract data from the menstural cycle tracker in XML format, from mood tracker in CSV format, and body temperature is recorded in JSON format.
- * Data Cleaning: Irrelevant data unrelated to the menstural cycle has been removed.
- * Premlimary Analysis: Initial patterns of symptoms related to specific cycle days has been identified .
 
+ * Data Extraction: 
+  Menstrual Cycle Tracker: Extracted data from the Menstrual Cycle and symptom tracker in XML format to capture flow, symptoms, and cycles for analysis.
+  Mood Tracker: Data is processed  from Daylio in CSV format to identify mood patterns and correlate them with the cycle phases.
+  Body Temperature: Collecting JSON-formatted data to detect temperature-related trends.
+
+* Data Cleaning: Removed all irrelevant data unrelated to the menstrual cycle, ensuring the dataset is only focused for analysis. 
+
+* Premlimary Analysis: Identified initial symptom patterns associated with specific cycle days. Observed potential correlations between mood variations and cycle phases.Found fluctuations in body temperature indicative of physiological changes.
+* Exploratory Data Analysis (EDA):
+
+  Gave a statistical overview of the database while focusing on the mean, median ,and the variations in the symptom, mood scores, and temperature during the cycle phases.
+  Assessed the direction and strength of relationship between mood and physical manifestations and their body temperature during the fluctuations.
+  Identified outliers and anomalies, for example unusually high temperature readings or changes in mood, for further proofing.
+  Monitored the timing and the phases of the menstrual cycle to determine patterns in the occurrence and intensity of symptoms.
+
+* Data Visualization:
+
+  Developed line graphs to illustrate temperature trends across multiple cycles, with markers for significant events like ovulation.
+  Used bar charts to compare the frequency and intensity of symptoms across different phases.
+  Generated scatter plots to examine relationships between body temperature and mood scores, helping to identify patterns and potential predictive factors.
+  Utilized box charts to represent the distribution and variability of key metrics such as symptom intensity, mood scores, and body temperature across different phases of the menstrual cycle.
 
 
  
